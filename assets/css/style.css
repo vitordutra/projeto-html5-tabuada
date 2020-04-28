@@ -125,3 +125,8 @@ footer a:visited {
   background-color: rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+
+#valorA {
+  width: 100%;
+  padding: 10px;
+}
