@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #b1a296;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .content-center {
@@ -107,6 +107,21 @@ footer a:visited {
   padding: 20px;
 }
 
+.content-mult-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 .content-mult-table td {
-  padding: 10px;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.content-mult-table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.content-mult-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
